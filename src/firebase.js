@@ -11,6 +11,8 @@ const firebaseApp = firebase.initializeApp({
     appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID
 });
 
+console.log("Vercelの環境変数チェック: ", process.env.NEXT_PUBLIC_FIREBASE_API_KEY);
+
 const db = firebaseApp.firestore();
 const auth = firebase.auth();
 
