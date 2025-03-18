@@ -1,0 +1,12 @@
+body {
+    text-align: center;
+    margin: 30px auto;
+}
+.object-opener{
+    text-align: start;
+}
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50px;
+}
