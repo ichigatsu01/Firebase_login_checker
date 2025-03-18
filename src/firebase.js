@@ -11,8 +11,6 @@ const firebaseApp = firebase.initializeApp({
     appId: process.env.REACT_APP_FIREBASE_APP_ID
 });
 
-console.log("Vercelの環境変数チェック: ", process.env.REACT_APP_FIREBASE_API_KEY);
-
 const db = firebaseApp.firestore();
 const auth = firebase.auth();
 
